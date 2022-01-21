@@ -8,6 +8,9 @@
 
 ```shell
 $ pip install GetGeneLength
+
+# for lattest version
+$ pip install GetGeneLength==0.0.3
 ```
 
 ## Usage
@@ -50,7 +53,7 @@ CYTB	CYTB	1141
 for gencode/ensembl gtf file:
 
 ```shell
-$ GetTss -d gencode -g gencode.v38.annotation_human.gtf -l gene_length.txt
+$ GetGeneLength -d gencode -g gencode.v38.annotation_human.gtf -l gene_length.txt
 Your job is running, please wait...
 
 Your job is done!
