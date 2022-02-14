@@ -8,9 +8,6 @@
 
 ```shell
 $ pip install GetGeneLength
-
-# for lattest version
-$ pip install GetGeneLength==0.0.3
 ```
 
 ## Usage
